@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'bignoodletoo';
+    src: url('images/bignoodletoo.ttf');
+}
+
+@font-face {
+    font-family: 'koverwatch';
+    src: url('images/koverwatch.ttf');
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+#entete {
+    background-image: url(images/bg1.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+#aboutme {
+    background-image: url(images/bg-path.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    padding: 5%;
+    text-align: center;
+}
+
+#projets {
+    background-image: url(images/bg2.png);
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact {
+    background-image: url(images/bg-path.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    padding: 5%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'bignoodletoo';
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'koverwatch';
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-family: 'koverwatch';
+    font-size: 22px;
+    margin-bottom: 5px
+}
+
+ul {
+    padding: 0;
+}
+
+img {
+    margin-bottom: 15px;
+}

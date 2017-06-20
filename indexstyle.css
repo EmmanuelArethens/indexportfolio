@@ -16,7 +16,7 @@ body {
 #entete {
     background-image: url(images/bg1.jpg);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1%;
 }
 
@@ -71,8 +71,4 @@ li {
 
 ul {
     padding: 0;
-}
-
-img {
-    margin-bottom: 15px;
 }

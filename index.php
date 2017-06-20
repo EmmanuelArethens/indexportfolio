@@ -10,7 +10,9 @@
 
 <body>
 <section id="entete">
-<h1> Emmanuel Arethens <h1>
+<img src="images/logoEA.png" alt="logoEA"> 
+<h1> Emmanuel Arethens </h1>
+<img src="images/logo2.png" alt="logo">
 
 </section>
 
@@ -43,8 +45,6 @@ echo '</ul>';
 <h3> Telephone : 06.37.83.62.69 </h3> 
 <h3> Mail : emmanuel.arethens1@gmail.com </h3> 
 <a href="https://github.com/EmmanuelArethens"> <img src="images/github.png" alt="github" id="git"> </a>
-
-
 </section>
 
 </body>

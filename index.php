@@ -32,7 +32,7 @@ echo '<ul id ="listeprojets">';
         if($dossier!=(".") && $dossier!=("..") && $dossier!=("images"))
         if (is_dir($dossier)) { 
         echo '<li><a href="'.$dossier.'">'.$dossier. '</a></li>';
-        echo '<img src="'.$dossier.'/screenshot.png" alt="screen">' ;
+        echo '<img class="screenshot" src="'.$dossier.'/screenshot.png" alt="screen">' ;
     }}
 echo '</ul>';
 ?>

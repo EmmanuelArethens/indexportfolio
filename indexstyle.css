@@ -20,6 +20,10 @@ body {
     padding: 1%;
 }
 
+#entete>img:hover {
+    opacity: 50%;
+}
+
 #aboutme {
     background-image: url(images/bg-path.jpg);
     background-position: center;
@@ -71,4 +75,8 @@ li {
 
 ul {
     padding: 0;
+}
+
+.screenshot {
+    max-width: 100%;
 }

@@ -1,3 +1,5 @@
+                                                          
+
 @font-face {
     font-family: 'bignoodletoo';
     src: url('images/bignoodletoo.ttf');
@@ -62,21 +64,40 @@ h2 {
     font-size: 32px;
 }
 
-a {
+#cv {
     text-decoration: none;
+    outline: 0px;
+    color: orange;
 }
 
 li {
     list-style: none;
     font-family: 'koverwatch';
     font-size: 22px;
-    margin-bottom: 5px
 }
 
 ul {
     padding: 0;
 }
 
-.screenshot {
-    max-width: 100%;
+a:focus {
+outline: 0px;
 }
+
+li {
+    list-style: none;
+    font-family: 'koverwatch';
+    font-size: 22px;
+}
+
+ul {
+    padding: 0;
+}
+
+
+.screenshot {
+   height:475px;
+   width:800px;
+}
+
+
